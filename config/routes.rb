@@ -4,7 +4,8 @@ Blogger::Application.routes.draw do
     resources :comments
   end
   resources :tags
-  
+  resources :authors
+
 end
 
 #Rails.application.routes.draw do
